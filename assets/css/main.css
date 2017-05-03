@@ -3126,7 +3126,7 @@
 				opacity: 1;
 			}
 
-			#header.alt .logo {
+			#header.alt .profile {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
@@ -3139,10 +3139,12 @@
 				margin: 0 0 1.5em 0;
 			}
 
-				#header.alt .logo img {
+				#header.alt .profile img {
 					display: block;
+					border-radius: 50%;
 					margin: 0 auto;
-					max-width: 75%;
+					width: 30%;
+					height: 30%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3222,7 +3224,7 @@
 			opacity: 0;
 		}
 
-		body.is-loading #header.alt .logo {
+		body.is-loading #header.alt .profile {
 			-moz-transform: scale(0.8) rotate(-30deg);
 			-webkit-transform: scale(0.8) rotate(-30deg);
 			-ms-transform: scale(0.8) rotate(-30deg);
